@@ -1,0 +1,40 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.25",
+   "Default View_TopLeft":"-255,-50",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port S00_AXI -pg 1 -lvl 0 -x 0 -y 360 -defaultsOSRD
+preplace port DDR3_0 -pg 1 -lvl 3 -x 900 -y 60 -defaultsOSRD
+preplace port port-id_axi_clock -pg 1 -lvl 0 -x 0 -y 380 -defaultsOSRD
+preplace port port-id_axi_reset -pg 1 -lvl 0 -x 0 -y 400 -defaultsOSRD
+preplace port port-id_clock_200MHz -pg 1 -lvl 0 -x 0 -y 90 -defaultsOSRD
+preplace port port-id_clock_ok -pg 1 -lvl 0 -x 0 -y 110 -defaultsOSRD
+preplace port port-id_mem_ok -pg 1 -lvl 3 -x 900 -y 240 -defaultsOSRD
+preplace port port-id_sys_reset -pg 1 -lvl 0 -x 0 -y 190 -defaultsOSRD
+preplace portBus device_temp -pg 1 -lvl 0 -x 0 -y 20 -defaultsOSRD
+preplace inst axi_smc_1 -pg 1 -lvl 1 -x 370 -y 390 -defaultsOSRD
+preplace inst mem_reset_control_0 -pg 1 -lvl 1 -x 370 -y 150 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 2 -x 700 -y 100 -defaultsOSRD
+preplace netloc AXI_clock 1 0 1 NJ 380
+preplace netloc AXI_reset 1 0 1 30J 400n
+preplace netloc clock_200MHz 1 0 2 20 30 520
+preplace netloc clock_ok 1 0 1 NJ 110
+preplace netloc mem_ok 1 1 2 510J 240 N
+preplace netloc mem_ui_clk 1 0 3 50 270 N 270 860
+preplace netloc sys_reset 1 0 1 NJ 190
+preplace netloc device_temp_1 1 0 2 NJ 20 540
+preplace netloc mem_reset_control_0_mem_reset 1 1 1 510 100n
+preplace netloc mem_reset_control_0_aresetn 1 1 1 540 140n
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 0 3 40 0 NJ 0 860
+preplace netloc mig_7series_0_mmcm_locked 1 0 3 50 -10 NJ -10 870
+preplace netloc mig_7series_0_init_calib_complete 1 0 3 30 -20 NJ -20 880
+preplace netloc MEM_AXI4 1 0 1 NJ 360
+preplace netloc axi_smc_1_M00_AXI 1 1 1 530 60n
+preplace netloc Conn1 1 2 1 N 60
+levelinfo -pg 1 0 370 700 900
+pagesize -pg 1 -db -bbox -sgen -170 -70 1010 480
+"
+}
+
